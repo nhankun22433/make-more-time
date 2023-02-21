@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ================ FAVICON ========================= -->
+  <link rel="shortcut icon" href="./assets/images/favicon-figma.png" type="image/x-icon">
+
+  <!-- ================ REMIXICON ========================= -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- ================ CSS ========================= -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- =================== RESPONSIVE ====================== -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <title>Course Figma</title>
+</head>
+
+<body class="loading">
+  <!-- ================= HEADER ===================== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Singleton</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__items">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">Project</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav__user">
+          <div class="nav-user nav__user-log-in">Log in</div>
+          <div class="nav-user nav__user-sign-up">Sign up</div>
+        </div>
+        <div class="nav__theme">
+          <span class="nav__theme-name" id="theme-name">Dark theme</span>
+          <i class="ri-moon-fill nav__theme-button" id="theme-button"></i>
+        </div>
+        <i class="ri-close-fill nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-function-fill"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================ MAIN HTML ======================= -->
+  <main class="main">
+    <!-- ================= HOME ========================== -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h2 class="home__data-title">Make more time for the work that matters most</h2>
+          <span class="home__data-subtitle">Create screens directly in Singleton or add your images from Sketch or
+            Figma. You can even sync designs from your cloud storage!</span>
+          <form class="home__data-started">
+            <div class="home__email">
+              <i class="ri-mail-line home__email-icon"></i>
+              <input type="text" class="home__email-text" placeholder="Type your e-mail" required />
+            </div>
+            <button class="home__button">Get started</button>
+          </form>
+        </div>
+        <div class="home__img">
+          <img src="./assets/images/home__img.png" alt="">
+        </div>
+      </div>
+
+      <div class="home__sponsor container">
+        <img src="./assets/images/google.png" alt="" class="home__sponsor-1">
+        <img src="./assets/images/flower.png" alt="" class="home__sponsor-2">
+        <img src="./assets/images/uber.png" alt="" class="home__sponsor-3">
+        <img src="./assets/images/stripe.png" alt="" class="home__sponsor-4">
+        <img src="./assets/images/nike.png" alt="" class="home__sponsor-5">
+        <img src="./assets/images/airbnb.png" alt="" class="home__sponsor-6">
+        <img src="./assets/images/mastercard.png" alt="" class="home__sponsor-7">
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ===================== -->
+    <section class="about section" id="about">
+      <h2 class="section__title about__title">Save time managin social <br> media for your business</h2>
+      <div class="about__container container grid">
+        <ul class="about__list grid container">
+          <li class="about__item">
+            <img src="./assets/images/lock-icon.png" alt="" class="about__img">
+            <div class="about__data">
+              <h3 class="about__item-title">Security Management</h3>
+              <span class="about__item-description">It is a long established fact that a reader will be distracted by
+                the
+                readable content</span>
+            </div>
+            <a href="#" class="about__item-button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+          <li class="about__item">
+            <img src="./assets/images/fire-icon.png" alt="" class="about__img">
+            <div class="about__data">
+              <h3 class="about__item-title">Diigital Agency</h3>
+              <span class="about__item-description">It is a long established fact that a reader will be distracted by
+                the
+                readable content</span>
+            </div>
+            <a href="#" class="about__item-button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+          <li class="about__item">
+            <img src="./assets/images/reference-icon.png" alt="" class="about__img img-3">
+            <div class="about__data">
+              <h3 class="about__item-title">API Reference</h3>
+              <span class="about__item-description">It is a long established fact that a reader will be distracted by
+                the
+                readable content</span>
+            </div>
+            <a href="#" class="about__item-button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+          <li class="about__item">
+            <img src="./assets/images/people-icon.png" alt="" class="about__img">
+            <div class="about__data">
+              <h3 class="about__item-title">Team Accounts</h3>
+              <span class="about__item-description">It is a long established fact that a reader will be distracted by
+                the
+                readable content</span>
+            </div>
+            <a href="#" class="about__item-button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+          <li class="about__item">
+            <img src="./assets/images/user-icon.png" alt="" class="about__img">
+            <div class="about__data">
+              <h3 class="about__item-title">User Administration</h3>
+              <span class="about__item-description">It is a long established fact that a reader will be distracted by
+                the
+                readable content</span>
+            </div>
+            <a href="#" class="about__item-button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+          <li class="about__item">
+            <img src="./assets/images/email-icon.png" alt="" class="about__img">
+            <div class="about__data">
+              <h3 class="about__item-title">Security Management</h3>
+              <span class="about__item-description">It is a long established fact that a reader will be distracted by
+                the
+                readable content</span>
+            </div>
+            <a href="#" class="about__item-button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="about__text">Create screens directly in Singleton or add your images from Sketch or <br> Figma. You
+          can
+          even sync designs from your cloud storage!</div>
+        <div class="about__button">
+          <button class="button">Explore All Features</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SERVICES ======================= -->
+    <section class="services section" id="services">
+      <div class="services__container container grid">
+        <img src="./assets/images/svg_2.svg" alt="" class="services__img">
+        <div class="services__data">
+          <div class="services__data-subtitle">
+            <div class="services__icon">
+              <img src="./assets/images/reference-icon-2.png">
+            </div>
+            <div class="service__reference">API Reference</div>
+          </div>
+          <h3 class="services__data-title">We believe in helping people pay attention to what matters</h3>
+          <div class="services__button">
+            <button class="button">Explore All Features <i class="ri-arrow-right-line"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== INVITE ====================== -->
+    <section class="invite section" id="invite">
+      <h2 class="section__title invite__title container">Invite friends & earn rewards</h2>
+      <div class="invite__play-video" id="invite-video">
+        <video src="./assets/video/video__figma.mp4" class="video__play" controls type="video/mp4"></video>
+        <div class="close__video-container" id="close-video">
+          <div class="leftright"></div>
+          <div class="rightleft"></div>
+          <label class="close">close</label>
+        </div>
+      </div>
+      <div class="invite__video">
+        <i class="ri-play-circle-fill invite__icon"></i>
+        <span class="invite__video-title">Play Introduction Video</span>
+      </div>
+      <div class="invite__container container grid">
+        <img src="./assets/images/smart_phone.png" alt="" class="invite__img-one">
+        <img src="./assets/images/svg-3.png" alt="" class="invite__img-two">
+      </div>
+      <p class="invite__description container">Create screens directly in Singleton or add your images from Sketch <br>
+        or Figma.
+        You
+        can even sync designs from your cloud storage!</p>
+    </section>
+
+    <!-- ======================= PRICE =========================== -->
+    <section class="price section container" id="price">
+      <h2 class="section__title price__title">Build the right plan for <br> your team</h2>
+      <div class="price__container container">
+        <ul class="price__list grid">
+          <!-- ================ Price Item 1 ===================== -->
+          <li class="price__item">
+            <span class="price__item-subtitle">Starter</span>
+            <h3 class="price__item-title">Free</h3>
+            <div class="price__item-description">
+              <span>1 Non-Commercial Site</span>
+              <span>100 GB System Storage</span>
+              <span>Singleton Branding</span>
+            </div>
+            <button class="button price__item-button">Select Plan</button>
+          </li>
+          <!-- ================ Price Item 2 ===================== -->
+          <li class="price__item">
+            <span class="price__item-subtitle">Singleton Plus</span>
+            <h3 class="price__item-title">$39<span>/month</span></h3>
+            <div class="price__item-description">
+              <span>10 Non-Commercial Site</span>
+              <span>500 GB System Storage</span>
+              <span>Custom Branding</span>
+            </div>
+            <button class="button price__item-button">Select Plan</button>
+          </li>
+          <!-- ================ Price Item 3 ===================== -->
+          <li class="price__item">
+            <span class="price__item-subtitle">Singleton Pro</span>
+            <h3 class="price__item-title">$99<span>/month</span></h3>
+            <div class="price__item-description">
+              <span>30 Non-Commercial Site</span>
+              <span>1TB System Storage</span>
+              <span>Singleton Branding</span>
+            </div>
+            <button class="button price__item-button">Select Plan</button>
+          </li>
+        </ul>
+
+        <span class="price__description">Create screens directly in Singleton or add your images from Sketch or <br>
+          Figma.
+          You can even sync designs from your cloud storage!</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================== FOOTER ====================================== -->
+  <footer class="section footer">
+    <div class="footer__container container">
+      <div class="footer__content">
+        <h2 class="footer__logo">Singleton</h2>
+        <ul class="footer__list">
+          <!-- ================== List Footer 1 ================== -->
+          <div class="footer__item footer__list-one">
+            <h3 class="footer__list-title">Learn</h3>
+            <ul>
+              <li><a href="#">Our Course</a></li>
+              <li><a href="#">The Programme</a></li>
+              <li><a href="#">The Course</a></li>
+              <li><a href="#">F.A.Q</a></li>
+            </ul>
+          </div>
+          <!-- ================== List Footer 2 ================== -->
+          <div class="footer__item footer__list-two">
+            <h3 class="footer__list-title">Hire</h3>
+            <ul>
+              <li><a href="#">Our Talent</a></li>
+              <li><a href="#">Freelancers</a></li>
+              <li><a href="#">Trainees</a></li>
+            </ul>
+          </div>
+          <!-- ================== List Footer 2 ================== -->
+          <div class="footer__item footer__list-three">
+            <h3 class="footer__list-title">About</h3>
+            <ul>
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Our Culture</a></li>
+              <li><a href="#">The Team</a></li>
+            </ul>
+          </div>
+          <!-- ================== List Footer 4 ================== -->
+          <div class="footer__item footer__list-four">
+            <h3 class="footer__list-title">Blog</h3>
+            <ul>
+              <li><a href="#">Business Stories</a></li>
+              <li><a href="#">Digital Mum</a></li>
+              <li><a href="#">Learning</a></li>
+              <li><a href="#">Social Media</a></li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      <div class="footer__rights">
+        <div class="footer__rights-data">
+          <!-- ================ Contact ==================== -->
+          <form class="home__data-started footer__data-started">
+            <div class="home__email">
+              <i class="ri-mail-line home__email-icon"></i>
+              <input type="text" class="home__email-text" placeholder="Type your e-mail" required />
+            </div>
+            <button class="home__button">Get started</button>
+          </form>
+          <!-- ================ Social Icon ======================== -->
+          <div class="footer__social">
+            <a href="https://www.facebook.com/roller.jon">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/truong_01h/">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://twitter.com">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__rights-copy">
+          <p class="footer__copy">&#169; 2021 HTR. All rigths reserved.</p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== SCROLL UP ==================================== -->
+  <a href="#" class="scroll__up" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!-- ================== LOADING WEBSITE ============================== -->
+  <div class="loading__animation" id="loading">
+    <div class="loading__container">
+      <div style="--i:1" class="loading__item"></div>
+      <div style="--i:2" class="loading__item"></div>
+      <div style="--i:3" class="loading__item"></div>
+      <div style="--i:4" class="loading__item"></div>
+      <div style="--i:5" class="loading__item"></div>
+      <div style="--i:6" class="loading__item"></div>
+      <div style="--i:7" class="loading__item"></div>
+      <div style="--i:8" class="loading__item"></div>
+    </div>
+  </div>
+
+  <!-- ========================== SCROLL REVEAL ======================= -->
+  <script src="./assets/js/scrollreveal.min.js"></script>
+
+  <!-- ========================== MAIN JS ======================= -->
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
